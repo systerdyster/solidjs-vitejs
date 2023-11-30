@@ -7,7 +7,8 @@ export default defineConfig({
   testDir: './src',
   testMatch: /.*\.spec\.ts/,
   /* The base directory, relative to the config file, for snapshot files created with toMatchSnapshot and toHaveScreenshot. */
-  snapshotDir: './__snapshots__',
+  snapshotDir: './@reports',
+  outputDir: './@reports',
   /* Maximum time one test can run for. */
   timeout: 10 * 1000,
   /* Run tests in files in parallel */
