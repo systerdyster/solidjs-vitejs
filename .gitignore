@@ -131,3 +131,7 @@ dist
 
 www
 @reports
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

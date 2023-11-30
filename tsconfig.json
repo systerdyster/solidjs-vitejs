@@ -28,6 +28,6 @@
         "baseUrl": "./src",
         "paths": {}
     },
-    "include": ["./src"],
+    "include": ["./src", "./playwright"],
     "exclude": ["./node_modules"]
 }

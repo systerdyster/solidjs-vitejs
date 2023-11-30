@@ -6,8 +6,8 @@
   "scripts": {
     "start": "pnpm run dev",
     "v": "npm-check --update",
-    "test": "pnpm audit --production && pnpm run test:ut",
-    "test:ut": "playwright test",
+    "test": "pnpm audit --production && pnpm run test:pw",
+    "test:pw": "playwright test",
     "test:report": "playwright show-report",
     "dev": "vite",
     "build": "pnpm run test && vite build"
@@ -20,7 +20,9 @@
   "author": "Fredrik Gärdin",
   "license": "MIT",
   "devDependencies": {
+    "@playwright/experimental-ct-solid": "^1.40.1",
     "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.1",
     "@typescript-eslint/eslint-plugin": "^6.13.1",
     "@typescript-eslint/parser": "^6.13.1",
     "autoprefixer": "^10.4.16",
