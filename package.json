@@ -44,5 +44,6 @@
     "vite-plugin-solid": "^2.7.2",
     "vite-plugin-stylelint": "^5.2.1",
     "vite-tsconfig-paths": "^4.2.1"
-  }
+  },
+  "packageManager": "pnpm@8.7.5"
 }
