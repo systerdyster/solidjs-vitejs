@@ -2,7 +2,7 @@
   "name": "solidjs-vitejs",
   "version": "0.0.1",
   "description": "Boilerplate for starting new projects with solidJs and ViteJs",
-  "main": "index.js",
+  "main": "./src/index.tsx",
   "scripts": {
     "start": "pnpm run dev",
     "v": "npm-check --update",
