@@ -6,6 +6,6 @@ interface ITodoProps {
 export const Todo: VoidComponent<ITodoProps> = (props) => {
     
     return (
-        <div>Hello World</div>
+        <div class='text-2xl'>Hello World</div>
     )
 }
