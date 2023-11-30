@@ -1,0 +1,33 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "target": "esnext",
+        "jsx": "preserve",
+        "jsxImportSource": "solid-js",
+        "strict": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "noImplicitAny": true,
+        "allowUnreachableCode": false,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "emitDecoratorMetadata": true,
+        "typeRoots": [
+            "node_modules/@types/",
+            "scripts/@types/"
+        ],
+        "lib": [
+            "dom",
+            "DOM.Iterable",
+            "es5",
+            "es2015.promise",
+            "es6"
+        ],
+        "baseUrl": "./src",
+        "paths": {}
+    },
+    "include": ["./src"],
+    "exclude": ["./node_modules"]
+}

@@ -1,0 +1,21 @@
+{
+	"Solid-Js Component": {
+		"prefix": "sol",
+		"description": "",
+		"scope": "typescriptreact",
+		"body": [
+			"import type { VoidComponent } from 'solid-js';",
+			"",
+			"interface I$1Props {",
+			"}",
+			"",
+			"export const $1: VoidComponent<I$1Props> = (props) => {",
+			"    ",
+			"    return (",
+			"        <div>",
+			"        </div>",
+			"    )",
+			"}"
+		]
+	}
+}
