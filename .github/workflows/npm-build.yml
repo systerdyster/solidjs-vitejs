@@ -26,4 +26,5 @@ jobs:
       run: |
         corepack enable
         pnpm i
+        npx playwright install --with-deps
         pnpm run build
